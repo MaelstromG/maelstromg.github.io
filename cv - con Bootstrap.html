@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="PerfilSmall.jpg">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+    <script src="https://kit.fontawesome.com/c039d5df51.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+    <title>Lee Medina</title>
+</head>
+
+<body class="bg-dark text-white">
+    <div class="container text-center">
+        <header class="row">
+            <h1 class="col-12">Lee Medina Curriculum</h1>
+            <img src="Perfil.jpg" alt="Foto de Perfil de Lee Medina" class="img-fluid rounded-circle col-2 mx-auto">
+        </header>
+        <section id="contacto" class="row">
+            <div class="col-7">
+                <i class="fa-solid fa-user"></i>
+                <h3>About Me</h3>
+                Soy un analista de ventas altamente capacitado con más de 5 años de experiencia en el campo.
+                Tengo una sólida comprensión de las técnicas de análisis de datos y una habilidad probada para
+                identificar oportunidades de crecimiento y mejorar los resultados de ventas.
+                Soy un comunicador eficaz y un líder natural, con habilidades para trabajar en equipo y alcanzar
+                objetivos en un ambiente de trabajo dinámico.
+                Estoy comprometido a contribuir al éxito de la empresa y estoy entusiasmado con la oportunidad de unirme
+                a su equipo de ventas
+            </div>
+            <div class="col-5 text-end">
+                <h3>Detalles Personales</h3>
+                <i class="fa-solid fa-phone"></i>Telefono: (489) 330-2385<br>
+                <i class="fa-solid fa-envelope"></i>Email: lee.medina@gmail.com<br>
+                Direccion: <br>
+                Valwood Pkwy 8929,<br>
+                Billings,<br>
+                CA,<br>
+                USA<br>
+            </div>
+        </section>
+        <nav class="navbar navbar-expand-sm fixed-top navbar-dark justify-content-around">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a href="#contacto" class="nav-link col-2" id="linkContacto">Contacto</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#experiencia" class="nav-link" id="linkExperiencia">Experiencia</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#educacion" class="nav-link" id="linkFormacion">Formacion</a>
+                <li class="nav-item">
+                    <a href="#idiomas" class="nav-link" id="linkIdiomas">Idiomas</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#habilidades" class="nav-link" id="linkHabilidades">Habilidades</a>
+                </li>
+            </ul>
+        </nav>
+        <br>
+        <section id="experiencia" class="row gy-5">
+            <i class="fa-solid fa-briefcase"></i>
+            <h3 class="g-0">Experiencia Laboral</h3>
+            <div>
+                <h4 class="float-start">Compañía Constructora S.A.</h4>
+                <h6 class="text-end">Agosto de 2016 - Diciembre de 2017</h6><br>
+                <h6 class="text-start">Gerente de Proyectos</h6>
+                <button class="btn btn-info" onclick='showResponsabilidades("responsabilidades1")'><i class="fa-solid fa-clipboard"></i> Responsabilidades</button>
+                <p id="responsabilidades1"></p>
+            </div>
+            <div>
+                <h4 class="float-start">Compañía de Servicios Financieros</h4>
+                <h6 class="text-end">Enero de 2018 - Junio de 2019</h6><br>
+                <h6 class="text-start">Coordinador de Recursos Humanos</h6>
+                <button class="btn btn-info" onclick='showResponsabilidades("responsabilidades2")'><i class="fa-solid fa-clipboard"></i> Responsabilidades</button>
+                <p id="responsabilidades2"></p>
+            </div>
+            <div>
+                <h4 class="float-start">Empresa de Tecnología S.A.</h4>
+                <h6 class="text-end">Julio de 2019 - Actualidad</h6><br>
+                <h6 class="text-start">Analista de Ventas</h6>
+                <button class="btn btn-info" onclick='showResponsabilidades("responsabilidades3")'><i class="fa-solid fa-clipboard"></i> Responsabilidades</button>
+                <p id="responsabilidades3"></p>
+            </div>
+        </section>
+        <section id="educacion" class="row">
+            <i class="fa-solid fa-pencil"></i>
+            <h3>Formacion Academica</h3>
+            <ul class="list-group g-4">
+                <li class="list-group-item bg-dark text-white">
+                    <h5>Bachillerato</h5>
+                    Instituto bachillerato de Argentina, Buenos Aires
+                </li>
+                <li class="list-group-item bg-dark text-white">
+                    <h5>Carrera tecnica en administracion financiera</h5>
+                    Colegio Administrativo de Buenos Aires, Buenos Aires
+                </li>
+            </ul>
+        </section>
+        <div class="row">
+            <section id="idiomas" class="col-6">
+                <i class="fa-solid fa-language"></i>
+                <h3>Idiomas</h3>
+                <ul class="list-group">
+                    <li class="list-group-item bg-dark text-white">Español: Nativo</li>
+                    <li class="list-group-item bg-dark text-white">Ingles: Avanzado</li>
+                    <li class="list-group-item bg-dark text-white">Frances: Intermedio</li>
+                </ul>
+            </section>
+            <section id="habilidades" class="col-6">
+                <i class="fa-solid fa-book"></i>
+                <h3>Habilidades</h3>
+                <ul class="list-group">
+                    <li class="list-group-item bg-dark text-white">PowerPoint</li>
+                    <li class="list-group-item bg-dark text-white">Excel</li>
+                    <li class="list-group-item bg-dark text-white">SAP</li>
+                </ul>
+            </section>
+        </div>
+    </div>
+</body>
+
+</html>
